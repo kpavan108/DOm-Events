@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #itemList {
+            list-style-type: none;
+            padding: 0;
+        }
+        #itemList li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+        .deleteBtn {
+            margin-left: 20px;
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive List</h1>
+    <input type="text" id="itemInput" placeholder="Add a new item">
+    <button id="addItemBtn">Add Item</button>
+    <ul id="itemList"></ul>
+    <button id="changeColorBtn">Change Background Color</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
